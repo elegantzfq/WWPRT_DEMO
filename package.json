@@ -1,0 +1,13 @@
+{
+    "name": "WWPRT_Demo",
+    "version": "1.0.0",
+	"script":{
+		"start":"node app.js"
+	},
+    "dependencies": {
+        "querystring": "0.2.0",
+        "mongoose":"4.*",
+        "express":"4.*",
+		"body-parser":"*"
+    }
+}
