@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 function btn_search_click(){
 	$.ajax({
-		url:'/search',type:'post',
+		url:'/search',type:'get',
 		data:{name:$('#cat_name').val()},
 		success:function(data,status){
 			//

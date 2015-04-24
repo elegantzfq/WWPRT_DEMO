@@ -2,13 +2,13 @@
 var path = require('path');
 //var mongoose = require('mongoose');
 
-var mongo_client = require('mongodb').MongoClient;
-var assert = require('assert');
-var url = 'mongodb://IbmCloud_mo7vhn6a_j8rdh483_uqurfpcg:hbYllSJ_kdM1-45CsFQAqAufp5iUjr0a@ds055110.mongolab.com:55110/IbmCloud_mo7vhn6a_j8rdh483?replicaSet=rs-ds055110'
-mongo_client.connect(url,function(err,db){
-	assert(null,err);
-	db.close();
-});
+//var mongo_client = require('mongodb').MongoClient;
+//var assert = require('assert');
+//var url = 'mongodb://IbmCloud_mo7vhn6a_j8rdh483_uqurfpcg:hbYllSJ_kdM1-45CsFQAqAufp5iUjr0a@ds055110.mongolab.com:55110/IbmCloud_mo7vhn6a_j8rdh483?replicaSet=rs-ds055110'
+//mongo_client.connect(url,function(err,db){
+//	assert(null,err);
+//	db.close();
+//});
 
 //mongoose.connect(url);
 /*var kittySchema = mongoose.Schema({

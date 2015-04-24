@@ -10,6 +10,6 @@ module.exports = function(app){
 	app.get('/about',handler.about);
 	//app.use(bodyParser.json()); // for parsing application/json
 	//app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-	//app.post('/search',handler.search);
+	app.get('/search',handler.search);
 	//app.get('/demo',handler.demo);
 }
